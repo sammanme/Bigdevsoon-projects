@@ -1,0 +1,209 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    justify-content: center;
+    background-color: #8cdbb4;    
+    justify-content: center;
+}
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .sub-main {
+    box-shadow: 2px;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    box-shadow: 
+    0 0 10px rgba(0, 0, 0, 0.5), /* First shadow */
+    0 0 5px rgba(0, 0, 0, 0.2); /* Second shadow */
+}
+
+.main .sub-main .left-con {
+    
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-content: space-evenly;
+    width: 45%;
+}
+
+.main .sub-main .right-con {
+    
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-content: space-evenly;
+    width: 45%;
+    background-color: #1b804d;
+    color: white;
+    box-shadow: 
+    0 0 10px rgba(0, 0, 0, 0.5), /* First shadow */
+    0 0 5px rgba(0, 0, 0, 0.2); /* Second shadow */
+
+    
+}
+
+.calculate-tip, .choose-a-tip{
+    font-weight: 500;
+    font-size: larger;
+    bottom: 10%;
+    text-align: start;
+    
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 6px;
+    opacity: 0.3;
+    
+    
+}
+
+.right-con div {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    
+    
+}
+
+.left-con button {
+    border-radius: 90px; /* 90px instead of 90PX */
+    background: none;
+    width: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.4;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    line-height: 5px; /* Adjust as needed */
+    display: inline-block; /* Add this line */
+    margin: 0 auto; /* Centers horizontally */
+    
+}
+
+.bill {
+    background-color: white;
+}
+
+.bill-total {
+    
+    position: relative;
+}
+
+
+
+.bill-total .bill {
+    position: absolute;
+    bottom: calc(65% + 1px);
+    left: 8px;
+    margin-bottom: 0; 
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 3px 5px 5px 5px;
+    opacity: 0.5;
+}
+
+.bill-total input {
+    width: 100%;
+    height: 50hv;
+    border: none;
+    position: relative;
+    background-color: white; /* Change background color as needed */
+    border: 1px solid black; /* Change border color as needed */
+    border-radius: 10px; /* Match the border-radius with the label */
+    padding: 5px; /* Match padding with the label */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    
+
+}
+
+.input-bill {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    opacity: 0.3;
+}
+
+.input-split {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    opacity: 0.3;
+    
+}
+
+.split-by p {
+    
+    bottom: 20px;
+    left: 5px;
+    margin-bottom: 1px; 
+    background-color: white;
+    border-radius: 16px;
+    padding: 3px;
+    font-weight: 500;
+    font-size: larger;
+}
+    
+.split-by input {
+    width: 100%;
+    height: 50hv;
+    border: none;
+    position: relative;
+    background-color: white; /* Change background color as needed */
+    border: 1px solid black; /* Change border color as needed */
+    border-radius: 10px; /* Match the border-radius with the label */
+    padding: 5px; /* Match padding with the label */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+.reset-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 25px;
+    margin: 0 auto;
+    background-color: #0c6136;
+   
+    padding: 5px;
+    width: 70%;
+}
+
+.reset-button button {
+    
+    border: none;
+    
+    width: 90%;
+    padding: 5px 5px 5px 5px;
+    
+    background: none;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.5;
+    
+    text-align: center;
+    line-height: 5px; /* Adjust as needed */
+    display: inline-block; /* Add this line */
+    margin: 0 auto; /* Centers horizontally */
+    color: white;
+    
+}
+
+
+
+#billinpit {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

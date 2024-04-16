@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDevSoonProjects</title>
+    <link rel="stylesheet" href="Bigdevsoon.css"/>
+</head>
+<body>
+<div class="main">
+    <div class="sub-main">
+        <div class="left-con">
+            <!--calculate tip-->
+            <p class="calculate-tip">Calculate Tip</p>
+
+            <div class="bill-total">
+                <div class="bill">
+                    <label>Bill total</label>
+                </div>
+                <div class="input-bill">
+                    <input type="text" id="billInput" placeholder="Enter bill amount" required/>
+                </div>
+            </div>
+
+            <!--choose a tip-->
+            <p class="choose-a-tip">Choose a tip</p>
+            <button id="tip10">10%</button>
+            <button id="tip15">15%</button>
+            <button id="tip20">20%</button>
+            <button id="tip25">25%</button>
+
+            <div class="split-by">
+                <!--split by-->
+                <p>Split By</p>
+                <div class="input-split">
+                    <input type="number" id="split" placeholder="How many split please" required/>
+                </div>
+            </div>            
+
+        </div>
+        <div class="right-con">           
+            <div >
+                <p>Base</p>                
+                <div id="output"></div>                
+            </div>
+            <div>
+                <p>Tip</p>                
+                <div id="output1"></div>
+            </div>
+            <div>
+                <p>Per person</p>
+                <div id="output3"></div>
+            </div>
+            <div>
+                <p>Total</p>
+                <div id="output2"></div>
+            </div>
+            <div class="reset-button">
+                <button id="resetButton">RESET</button>
+            </div>
+        </div>
+        <script src="Bigdevsoon.js"/>
+    </div>
+</div>
+</body>
+</html>
